@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xecta Consulting</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <i class="bx bx-menu" id="menu" onclick="openMenu()"></i>
+    <section id="page1">
+        <div class="menu">
+            <h1 class="logo">Xecta</h1>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="menu2" id="menu2">
+            <ul class="ul">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="Text1">
+            <div class="imgi">
+            <i class="bx bx-book-open"></i>
+            <i class="bx bx-cuboid" id="ii"></i>
+            <i class="bx bx-graduation"></i>
+            <img src="Wseit1.jpg" id="img1">
+            <div class="orange"></div>
+            <div class="blue"></div>
+            </div>
+        <h1 class="h1"><span class="auto-type">Make Your Ambition<br> A <span id="color">Reality</span></span></h1>
+        <p class="ppp">Study in Wseit University,poland <br>to enjoy their and cheap <br>programme in professional courses.</p>
+
+        <button class="btn">Learn More</button>
+        </div>
+
+    </section>
+    <div class="ppclass">
+    <p class="pp">In partnership with<br><img src="logo.png" id="logo"></p>
+    </div>
+
+    <section id="page2">
+        <h1 class="h11">Courses</h1>
+        <div class="card">
+            <div class="card1">
+                <img src="cosmetology.jpg" id="imgc">
+                <h1 class="cardtxt">Cosmetology</h1>
+                <p class="ppp">The College of Education and Therapy offers the students a 3-year higher vocational studies with a practical profile in the field of Cosmetology. The studies end with a Bachelor's degree. The classes taught in these studies are selected in such a way that students are able to acquire an attractive profession and as many practical skills as possible within 6 semesters of study.</p>
+            </div>
+
+            <div class="card1">
+                <img src="dental.jpg" id="imgc">
+                <h1 class="cardtxt">Dental technology</h1>
+                <p class="ppp">The College of Education and Therapy offers high school graduates and holders of a diploma in Dental Technician a 3-year higher vocational  studies with a practical profile in Dental Technology. The programme concludes with a Bachelor's degree. Subjects taught are selected so as to fully prepare the student for work in the profession. Particular emphasis is placed on gaining as much practical skills as possible in the field of prosthodontics and orthodontics, which takes place in professionally equipped technical-dental laboratories and during compulsory work placement.</p>
+            </div>
+
+            <div class="card1">
+                <img src="physio.jpg" id="imgc" class="imgc">
+                <h1 class="cardtxt">Physiotherapy</h1>
+                <p class="ppp">The aim of the studies is to prepare graduates for the profession of a physiotherapist by enabling them to acquire knowledge and skills necessary to develop, maintain and restore fitness and capacity in people of different ages, lost or reduced mobility as a result of illness or injury.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="page3">
+        <img src="wseit2.jpg" id="img3">
+        <div class="text3">
+        <h1 class="hhhh">About WSEiT</h1>
+        <p class="ppp">WSEiT University,poland Offer a <br>range of Undergraduate & Postgraduate programmes,<br>WSEiT University has been highly effective<br> in helping student achieve successful careers.</p>
+    <button class="btn">Learn More</button>
+    </div>
+    </section>
+
+    <section id="footer">
+
+        <h2>enquiring<br>@<br>Xecta Consulting</h2>
+
+        <h2>No 45,suit 11,Ijaiye/Agbado Road,<br>
+        Sege B/stop,Ijaiye, Lagos State,<br>
+        Email: xectag01@yahoo.com<br>
+        Tel: 08092719113, 08033743171, 08069759807</h2>
+
+        <p class="ph">Visit the school website at<br>
+        https://wseit.edu.pl</p>
+
+
+    </section>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script>
+        var typed =new Typed(".auto-type",{
+            strings: ["Study In Poland", "Make Your Ambition<br> A Reality","Study In Poland"],
+            typespeed: 150,
+            backspeed: 150,
+            loop :true
+        })
+    </script>
+
+    <script>
+        let popup = document.getElementById("menu2")
+
+        function openMenu(){
+            popup.classList.toggle("open")
+        }
+
+
+    </script>
+</body>
+</html>

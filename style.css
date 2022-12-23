@@ -1,0 +1,456 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    max-width: 300px;
+    margin-top: -10px;
+}
+
+#menu{
+    margin-left: 500px;
+    visibility: hidden;
+}
+ul{
+    display: flex;
+    margin-top: px;
+    margin-left: 480px;
+}
+
+.imgi{
+    padding-top: 20px;
+}
+
+ul li{
+    margin-left: 30px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+}
+
+.menu2{
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+.ul{
+    display:inline;
+  
+}
+
+.ul li{
+    margin-top: 20px;
+}
+
+
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+#ma{
+    color:blue;
+    float: left;
+    position: absolute;
+}
+
+.ccd{
+    width:180px;
+    height: 80px;
+    background: white;
+    margin-left: 980px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    position: absolute;
+    margin-top: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Text1{
+    width:1200px;
+    height: 80vh;
+    margin-left: 90px;
+    margin-top: 30px;
+    background:#fcfbf9 ;
+}
+
+.h1{
+    margin-top: 30px;
+    padding-top: 80px;
+    font-size: 70px;
+    margin-left: 35px;
+}
+
+#img1{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 60px;
+    border:2px solid orange;
+}
+
+#color{
+    color:blue;
+}
+
+p{
+    margin-left: 35px;
+    font-size: 22px;
+}
+
+.btn{
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 100px;
+    height: 30px;
+}
+
+.orange{
+    background: orange;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: -330px;
+}
+
+.blue{
+    background: lightskyblue;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top: 190px;
+    
+}
+
+i{
+    color:blue;
+    margin-left: 900px;
+    font-size: 30px;
+    position: absolute;
+}
+
+#ii{
+    margin-top: 390px;
+    position: absolute;
+    color: orange;
+}
+
+#ia{
+    margin-top: px;
+    margin-right:px;
+    color:lightskyblue;
+    float: right;
+    position: absolute;
+}
+
+.pp{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+    position: absolute;
+}
+
+.h11{
+    text-align: center;
+    font-size: 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    width:400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#imgc{
+    width:400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#page2{
+    background: #fcfbf9;
+    height: 100vh;
+}
+
+.cardtxt{
+    text-align: center;
+}
+
+.ppp{
+    font-size: 16px;
+}
+
+#page3{
+    height: 70vh;
+}
+
+.text3{
+    margin-left: 80px;
+    margin-top: 80px;
+    padding-top: 30px;
+}
+
+.hhhh{
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+#img3{
+    float: right;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+#footer{
+    background: black;
+    height: 60vh;
+    color:white
+}
+
+h2{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.ph{
+    float: right;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        padding: 0;
+        margin: 0;
+        width:300px
+    }
+    
+    .logo{
+        font-size: 20px;
+        margin-left: 10px;
+        position: absolute;
+        max-width: 300px;
+        margin-top: 10px;
+    }
+    
+    ul{
+        display: none;
+        margin-top: px;
+        margin-left: 480px;
+    }
+    
+    .imgi{
+        padding-top: 20px;
+        float:left;
+        margin-left: 10px;
+        margin-top: 300px;
+        position: absolute;
+    }
+
+    i{
+        margin-left: 20px;
+    }
+    
+    
+    .menu2{
+        visibility: hidden;
+        position: absolute;
+        float: left;
+        margin-left: 130px;
+        background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        width:150px;
+        height: 160px;
+        border-radius: 10px;
+        border: 1px solid orange;
+        color: white;
+        margin-top: 60px;
+    }
+    
+    .open{
+        visibility: visible;
+    }
+    
+    
+    .ul{
+        display:inline;
+      
+    }
+    
+    .ul li{
+        margin-top: 20px;
+        color:white
+    }
+
+    .ul li a{
+        color:white
+    }
+    #ii{
+        margin-top: 260px;
+    }
+
+    i{
+        margin-top: -15px;
+    }
+    
+    ul li a:hover{
+        text-decoration: underline;
+    }
+
+    #img1{
+       width:220px;
+       height: 220px;
+       margin-left: 15px;
+       border-radius: 50%;
+    }
+    .Text1{
+        margin-left: 6px;
+        background: white;
+        margin-top: -30px;
+    }
+
+    .h1{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .orange{
+        margin-left: 30px;
+        float:left;
+
+    }
+
+    .blue{
+        display: none;
+    }
+
+    
+
+    .ppclass{
+        margin-top: 50px;
+        margin-left: 0px;
+        position: absolute;
+    }
+
+    #page2{
+        margin-top: 600px;
+    }
+
+    .card{
+        display: inline;
+        margin-left: 5px;
+    }
+
+    .card1{
+        width:270px;
+        height: 510px;
+        margin-left: 8px;
+    }
+
+    #imgc{
+        width:270px;
+        margin-left: 8px;
+    }
+
+    .card2{
+        width: 270px;
+        margin-left: 8px;
+        height: 600px;
+
+    }
+
+    .card3{
+        width: 270px;
+        margin-left: 8px;
+        height: 500px;
+        padding-top: 100px;
+      
+    }
+
+    .h11{
+        margin-left: 10px;
+        position: absolute;
+        margin-top: -30px;
+        font-size: 20px;
+    }
+
+    .imgc{
+        margin-top: 100px;
+    }
+
+    #page2{
+        margin-top: 400px;
+    }
+
+    #page3{
+        margin-top: 940px;
+    }
+
+    #img3{
+        width:270px;
+        margin-left: 13px;
+        float: left;
+
+    }
+
+    .text3{
+        margin-left: 5px;
+        font-size: 13px;
+    }
+
+    .hhhh{
+        margin-left: 5px;
+    }
+
+    .ppp{
+        margin-left:5px ;
+        max-width: 270px;
+    }
+
+    #footer{
+        width:300px;
+        height: 50vh;
+    }
+
+    h2{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .ph{
+        font-size: 14px;
+        float: left;
+    }
+
+    #menu{
+        float: left;
+        margin-left:240px;
+        visibility: visible;
+        margin-top: 5px;
+    }
+}
